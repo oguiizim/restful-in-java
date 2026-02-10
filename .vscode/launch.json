@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-TodosimpleApplication<scout>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.lucasangelo.todosimple.TodosimpleApplication",
+      "projectName": "scout",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
