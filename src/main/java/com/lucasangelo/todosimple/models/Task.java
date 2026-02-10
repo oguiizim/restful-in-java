@@ -17,7 +17,7 @@ import java.util.Objects;
 @Entity
 @Table(name = Task.TABLE_NAME)
 public class Task {
-    public static final String TABLE_NAME = "tasks";
+    public static final String TABLE_NAME = "task";
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true)
