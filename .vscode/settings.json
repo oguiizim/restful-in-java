@@ -1,5 +1,6 @@
 {
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "java.compile.nullAnalysis.mode": "automatic",
-  "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "better-comments.multilineComments": true
 }
