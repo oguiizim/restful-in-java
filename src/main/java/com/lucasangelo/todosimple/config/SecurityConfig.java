@@ -19,16 +19,18 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityConfig {
+
     private static final String[] PUBLIC_MATCHERS = {
             "/"
     };
-
     private static final String[] PUBLIC_MATCHERS_POST = {
             "/user",
             "/login"
     };
 
+    @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+
         http.cors().and().csrf().disable();
 
         http.authorizeRequests()
